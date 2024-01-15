@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Condicionales</title>
+  <link rel="stylesheet" href="../_astro/Bucles.8pTambmz.css" />
+  <link rel="stylesheet" href="../_astro/Bucles.ES6dgpdJ.css" />
+
+</head>
+
+<body>
+  <div class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <a class="navbar-brand">ConcepCode</a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a href="../index.html" class="nav-link"><i class="fa-solid fa-house"></i> Inicio</a>
+      </li>
+    </ul>
+  </div>
+  <div class="container">
+    <div class="banner row d-block">
+      <h2 class="title text-center">Condicionales</h2>
+      <p class="text-center w-50 mx-auto">
+        En programación, las condicionales son como decisiones en un camino.
+        Imagina que tu programa puede elegir entre diferentes opciones según
+        ciertas condiciones. Esto permite que nuestro codigo tenga
+        intiligencia y se adapte a una situacion en concreto.
+      </p>
+    </div>
+    <div class="flechas row text-center">
+      <i class="fa-solid fa-arrow-down-long col fs-1 mb-3"></i>
+      <i class="fa-solid fa-arrow-turn-down col fs-1 mb-3"></i>
+    </div>
+    <div class="seccion1 row">
+      <div class="block1 col">
+        <h3 class="text-center">Si o if</h3>
+        <p>
+          El <span class="text-danger">if</span> en programación decide
+          ejecutar un bloque de código si una condición es
+          <span class="text-primary">verdadera</span>; de lo contrario, se
+          omite. Esta estructura condicional es fundamental para adaptar el
+          comportamiento del programa según condiciones específicas,
+          permitiendo tomar decisiones y ejecutar acciones selectivamente.
+        </p>
+        <div class="card">
+          <pre>
+            <code class="language-python">
+              Saludar = <p id="Saludar_f">str()</p>
+              if Saludar:
+              print("Hola, como estas?")
+
+
+
+              # Codigo en python del "if"
+              </code>
+            </pre>
+          <button class="btn btn-primary" onclick="_if()">Ejecutar</button>
+        </div>
+      </div>
+      <div class="block2 col">
+        <h3 class="text-center">Caso contrario o else</h3>
+        <p>
+          El <span class="text-danger">else</span> en programación se utiliza
+          en conjunto con el <span class="text-danger">if</span>. Si la
+          condición del <span class="text-danger">if</span> es falsa, se
+          ejecuta el bloque de código dentro del "else". Es una forma de
+          proporcionar una alternativa cuando la condición inicial no se
+          cumple. Esto permite manejar múltiples escenarios y tomar decisiones
+          más completas en el código.
+        </p>
+        <div class="card">
+          <pre>                        <code class="language-python">
+                            num1 = <span id="num1">int()</span>
+                            num2 = <span id="num2">int()</span>
+
+                            if num1 <i>&lt;</i> num2:
+                                print("El numero 1 es mayor al numero 2")
+                            else:
+                                print("El numero 2 es mayor al numero 1")
+
+                            # Codigo de python del else
+
+                        </code>
+                    </pre>
+          <button class="btn btn-primary" onclick="_else()">Ejecutar</button>
+        </div>
+      </div>
+    </div>
+    <div class="flecha row text-center">
+      <i class="fa-regular fa-circle-down fs-1 mt-3 mb-3"></i>
+    </div>
+    <div class="d-flex flex-row">
+      <div class="block4 w-75 p-3">
+        <h3 class="text-center">Si no o else if</h3>
+        <p>
+          El <span class="text-danger">else if</span> en programación es una
+          extensión del <span class="text-danger">else</span>. Funciona como
+          un <span class="text-danger">if</span> secundario con su propia
+          condición. Si la condición del
+          <span class="text-danger">else if</span> es verdadera, se ejecuta su
+          bloque de código; de lo contrario, se pasa al siguiente
+          <span class="text-danger">else if</span> o al
+          <span class="text-danger">else</span> si no hay más condiciones.
+          Esto permite gestionar múltiples escenarios de manera estructurada
+          en el código.
+        </p>
+        <button class="btn btn-primary w-100" onclick="verificarEdad()">Ejecutar</button>
+      </div>
+      <div class="block5 w-100">
+        <pre>                    <code class="language-python">
+                        Edad = <i id="edad">int()</i>
+
+                        # En python el "else if" se escribe como "elif"
+                        if edad <span>&lt;</span>= 17:
+                            print("Eres menor de edad")
+                        elif edad <span>&gt;</span> 18:
+                            print("Eres mayor de edad")
+                        else:
+                            print("Tu edad es incorrecta")
+                    </code>
+                </pre>
+      </div>
+    </div>
+  </div>
+  <script src="./prism.js" charset="utf-8"></script>
+  <script src="https://kit.fontawesome.com/fbdfb4841c.js" crossorigin="anonymous"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="./index.js" charset="utf-8"></script>
+</body>
+
+</html>

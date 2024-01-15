@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Variables</title>
+    <link rel="stylesheet" href="../_astro/Bucles.8pTambmz.css" />
+    <link rel="stylesheet" href="../_astro/Bucles.ES6dgpdJ.css" />
+    <script type="module" src="../_astro/hoisted.vDnJhRyT.js"></script>
+  </head>
+  <body>
+    <div class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+      <a class="navbar-brand">ConcepCode</a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="../index.html" class="nav-link"
+            ><i class="fa-solid fa-house"></i> Inicio</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="container">
+      <div class="seccion row m-3">
+        <div class="col-5">
+          <img src="../img/asset3.jpg" alt="imagen de inicio" class="w-75" />
+        </div>
+        <div class="col-5 mt-auto mb-auto">
+          <h2 class="text-center">Variables</h2>
+          <p>
+            En programación, las variables son contenedores que almacenan datos
+            o valores manipulados por un programa.
+          </p>
+          <p>
+            Estos valores pueden cambiar durante la ejecución del programa y
+            permiten a los desarrolladores referirse a datos de manera simbólica
+            en lugar de utilizar valores específicos directamente.
+          </p>
+        </div>
+      </div>
+      <div class="seccion2 row m-3">
+        <div>
+          <h2>Analogia</h2>
+          <p>
+            Las variables son como cajas donde puedes guardar información.
+            Imagina que estás guardando números, palabras u otras cosas en estas
+            cajas. Lo bueno es que puedes cambiar lo que hay dentro de las cajas
+            mientras trabajas en tu programa.
+          </p>
+        </div>
+      </div>
+      <div class="seccion3 row m-3">
+        <div class="col">
+          <p>
+            En la siguiente imagen, observamos cómo un camión está dentro de una
+            caja. En este contexto, el "camión" actúa como nuestro objeto,
+            mientras que la "caja" representa nuestra variable. La analogía se
+            basa en la idea de que podemos cambiar el contenido de la caja; por
+            ejemplo, podemos sacar el "camión" y colocar un "carro" en su lugar
+            sin que ocurra ningún problema. Este proceso ilustra la esencia de
+            una variable: su capacidad para variar o cambiar. La flexibilidad de
+            poder sustituir el camión por un carro sin complicaciones refleja
+            cómo las variables en programación permiten ajustar o modificar la
+            información que contienen.
+          </p>
+        </div>
+        <div class="col">
+          <img
+            src="../img/asset4.jpg"
+            alt="asset4.jpg"
+            class="rouned mx-auto d-block"
+            style="width: 18em; height: 16em"
+          />
+        </div>
+      </div>
+      <div class="seccion4 row mt-4">
+        <div class="head row text-center">
+          <h2>Tipos de Variables</h2>
+          <p class="text-info text-start">
+            hay diferentes tipos de variables que almacenan distintos tipos de
+            información. Estos tipos incluyen números, texto, y valores lógicos.
+            Cada tipo tiene sus propias características y se utiliza según el
+            tipo de datos que se quiere manejar en el programa.
+          </p>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="card col-3 mx-4 bg-success">
+            <img class="card-img-top mt-2" src="../img/asset5.jpg" alt="" />
+            <div class="card-body text-white">
+              <h3 class="card-title">String</h3>
+              <p class="card-text">
+                En programación, el tipo de dato &#39;string&#39; se utiliza
+                para representar texto. Un &#39;string&#39; es una secuencia de
+                caracteres, como letras, números o símbolos, que forman
+                palabras, frases o cualquier otro tipo de texto.
+              </p>
+              <div class="accordion mt-auto mb-auto" id="#accordion1">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#CollapseOne1"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      Se utiliza en:
+                    </button>
+                  </h2>
+                  <div
+                    id="CollapseOne1"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordion1"
+                  >
+                    <div class="accordion-body">
+                      Las variables de tipo string se utilizan en diversas
+                      situaciones en programación para manipular y representar
+                      datos de texto
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#CollapseTwo1"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Operacios:
+                    </button>
+                  </h2>
+                  <div
+                    id="CollapseTwo1"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordion1"
+                  >
+                    <div class="accordion-body">
+                      <ul>
+                        <li>Concatenación</li>
+                        <li>Longitud</li>
+                        <li>Extracción</li>
+                        <li>Comparación</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card col-3 mx-4 bg-danger">
+            <img class="card-img-top mt-2" src="../img/asset6.jpg" alt="" />
+            <div class="card-body text-white">
+              <h3 class="card-title">Number</h3>
+              <p class="card-text">
+                El tipo de dato &#39;number&#39; en programación se utiliza para
+                representar valores numéricos. Pueden ser enteros (números sin
+                decimales) o de punto flotante (números con decimales).
+              </p>
+              <div class="accordion mt-auto mb-auto" id="#accordion2">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#CollapseOne2"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      Se utiliza en:
+                    </button>
+                  </h2>
+                  <div
+                    id="CollapseOne2"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordion2"
+                  >
+                    <div class="accordion-body">
+                      Los números se utilizan en una variedad de situaciones,
+                      como realizar cálculos matemáticos, contar elementos, o
+                      representar medidas.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#CollapseTwo2"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Operacios:
+                    </button>
+                  </h2>
+                  <div
+                    id="CollapseTwo2"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordion2"
+                  >
+                    <div class="accordion-body">
+                      <ul>
+                        <li>Operaciones Arimeticas</li>
+                        <li>Incremento</li>
+                        <li>Decremento</li>
+                        <li>Asignacion</li>
+                        <li>Comparacion</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card col-3 mx-4 bg-primary">
+            <img class="card-img-top mt-2" src="../img/asset7.jpg" alt="" />
+            <div class="card-body text-white">
+              <h3 class="card-title">Boolean</h3>
+              <p class="card-text">
+                El tipo de dato &#39;boolean&#39; en programación se utiliza
+                para representar valores lógicos, es decir, solo puede tener dos
+                posibles valores: verdadero (true) o falso (false).
+              </p>
+              <div class="accordion mt-auto mb-auto" id="#accordion3">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#CollapseOne3"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      Se utiliza en:
+                    </button>
+                  </h2>
+                  <div
+                    id="CollapseOne3"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordion3"
+                  >
+                    <div class="accordion-body">
+                      Comúnmente utilizadas en estructuras de control de flujo,
+                      como las declaraciones if (si) o los bucles (loops).
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#CollapseTwo3"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Operacios:
+                    </button>
+                  </h2>
+                  <div
+                    id="CollapseTwo3"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordion3"
+                  >
+                    <div class="accordion-body">
+                      <ul>
+                        <li>Igualdad</li>
+                        <li>Negacion</li>
+                        <li>Conjuncion</li>
+                        <li>Disyuncion</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/fbdfb4841c.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
