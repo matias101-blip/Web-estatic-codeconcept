@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Variables</title>
+    <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="../_astro/Bucles.8pTambmz.css" />
     <link rel="stylesheet" href="../_astro/Bucles.ES6dgpdJ.css" />
     <script type="module" src="../_astro/hoisted.vDnJhRyT.js"></script>
@@ -283,11 +284,42 @@
             </div>
           </div>
         </div>
+        <div class="row text-center mt-5 mb-1">
+          <h2>Juego de arrastrar y soltar</h2>
+          <p>Arrastra y suelta, la imagen de la variable donde corresponde</p>
+        </div>
+        <div class="row seccion5 d-flex justify-content-center mt-4 mb-4">
+          <img class="mx-2" style="width: 15em; height: 7em"  src="../img/asset5.jpg" alt="" draggable="true" ondragstart="drag(event)" id="String">
+          <img class="mx-2" style="width: 15em; height: 7em"  src="../img/asset7.jpg" alt="" draggable="true" ondragstart="drag(event)" id="Boolean">
+          <img class="mx-2" style="width: 15em; height: 7em"  src="../img/asset6.jpg" alt="" draggable="true" ondragstart="drag(event)" id="Number">
+        </div>
+        <div class="row">
+          <div class="card mx-2 col p-3">
+            <div class="cuadro mx-auto mb-3" id="0" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+            </div>
+            <h4>String</h4>
+          </div>
+          <div class="card mx-2 col p-3">
+            <div class="cuadro mx-auto mb-3" id="1" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+            </div>
+            <h4>Number</h4>
+          </div>
+          <div class="card mx-2 col p-3">
+            <div class="cuadro mx-auto mb-3" id="2" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+            </div>
+            <h4>Boolean</h4>
+          </div>
+        </div>
       </div>
     </div>
     <script
       src="https://kit.fontawesome.com/fbdfb4841c.js"
       crossorigin="anonymous"
     ></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./index.js" charset="utf-8"></script>
   </body>
 </html>
